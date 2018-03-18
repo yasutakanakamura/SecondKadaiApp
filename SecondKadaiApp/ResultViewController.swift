@@ -19,7 +19,7 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        label.text = txt
+        label.text = "こんにちは " + txt + " さん"
         // Do any additional setup after loading the view.
     }
 
